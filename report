@@ -1,0 +1,19 @@
+Task 3 – Basic Vulnerability Scan Report
+Introduction
+this internship work I have scanned my own computer with the help of Nessus essentials for basic vulnerability assessment against my IP. This was a security vulnerability scan - to see what weaknesses were there, to know how serious they were, and see how scanning for vulnerabilities can make your systems more secure.
+Tool Used
+Scanner: Nessus Essentials
+Scan Type: Basic Network Scan
+Target: Local Machine (127.0.0.1)
+Scan Process
+I created a Basic Network Scan in Nessus Essentials and chose my local machine as the target. Nessus then scanned the system and found active services, open ports, and security holes. When the scan was over, I looked at the outcomes and checked the found vulnerabilities with their suggested repro steps.
+Scan Results
+The scan was successful and identified 26 issues. Most were informational items, describing operating system, running services and network configuration. There was also one Medium severity issue identified by the scan within the SSL/TLS configuration. No High or Critical vulnerabilities were identified, suggesting that while the system is adequately secure there is some room for improvement in the implementation of SSL/TLS.
+Recommendations
+According to the result of the scan, the recommendation is as follows.
+Keep the OS and software up to date.
+Have secure, current SSL/TLS configurations!
+Perform vulnerability scans on a regular basis to find newly introduced issues.
+Examine superfluous services and turn them off if are not needed.
+Conclusion
+In this exercise I learnt the basics of the vulnerability scanning working and how security tools such as nessus essentials can identify potential vulnerabilities. I've also learned how vulnerabilities are rated by severity, and How to read Scan reports. Overall, the scan results indicated that I have no critical security issues on my system, but I could still improve its security by regularly updating and properly configuring it.
